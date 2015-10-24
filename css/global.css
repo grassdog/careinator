@@ -1,3 +1,52 @@
-body{
-    padding-top: 64px;
+/* body{ */
+/*   padding-top: 64px; */
+/* } */
+
+
+html.home {
+  background: url(/images/hi-fred.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: none;
+}
+
+.jumbotron {
+  padding-top: 260px;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+  background: none;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 45px;
+}
+
+.jumbotron {
+  width: 530px;
+  margin: 0 auto;
+}
+
+@media (max-width: 530px) {
+  .jumbotron {
+    max-width: 380px;
+  }
+}
+
+p.lead {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.navbar-brand {
+  font-weight: 900;
+  font-size: 30px;
 }
